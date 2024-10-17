@@ -106,9 +106,51 @@ nav li:hover > .dropdown-content {
     background-color:  rgb(194, 222, 236)
 }
 
-main {
-    
+
+
+
+
+
+
+
+footer {
+    background-color: white;
+    padding: 0; /* Remove padding from the footer */
+    margin: 0; /* Remove margin from the footer */
 }
+
+/* Styling for the footer container */
+.footer-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+    padding: 20px 0; /* Add vertical padding if needed, but ensure horizontal is 0 */
+}
+
+/* Styling for the Fitlife logo */
+.fitlife-logo-footer {
+    max-width: 200px;
+    margin-bottom: 20px; /* Space between Fitlife logo and social media icons */
+}
+
+/* Container for the social media icons */
+.footer-social-icons {
+    display: flex; /* Align icons horizontally */
+    justify-content: center; /* Center the icons in the container */
+    margin: 0; /* Remove margin */
+}
+
+/* Styling for the social media icons */
+.footer-social-icons img {
+    display: block; /* Prevent extra space from line height */
+    max-width: 40px; /* Set a consistent size for all social media icons */
+    margin: 0 10px; /* Add horizontal spacing between icons */
+}
+
+
+
+
+
 
 
 
