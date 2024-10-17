@@ -108,15 +108,119 @@ nav li:hover > .dropdown-content {
 
 
 
+/* Forside */
+
+.forside-billede {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.seneste {
+    float: right;
+    width: 200px; 
+    margin-right: 125px; 
+    margin-top: -260px; 
+
+}
+
+
+.text-container {
+    max-width: 800px;
+    margin: 20px auto; 
+    text-align: justify;
+    padding: 0 150px;
+    line-height: 1.5rem;
+}
+
+/* Seneste tekst/liste */
+
+.seneste h2 {
+    font-size: 32px; 
+    font-weight: bold; 
+}
+
+.seneste ul li {
+    font-size: 20px; 
+    margin-bottom: 20px; 
+}
+
+.seneste ul li a {
+    text-decoration: none; 
+    color: #000000; 
+}
+
+
+/* Drikkevare artikel */
+
+.smoothie {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.content-container {
+    max-width: 800px;  /* Indstil den maksimale bredde på indholdet */
+    margin: 0 auto;    /* Centrerer containeren */
+    padding: 0 20px;   /* Tilføjer indvendig afstand på venstre og højre */
+}
+
+h1, h2, p {
+    text-align: left;  /* Justerer teksten til venstre for en mere ensartet margen */
+    margin: 0;         /* Fjerner standard margen fra overskrifter og afsnit */
+    padding: 10px 0;   /* Tilføjer en vertikal afstand mellem afsnit og overskrifter */
+}
+
+/* Gør det til en sektion */
+.section {
+    margin-bottom: 20px; /* Giver plads mellem sektionerne */
+}
+
+
+/* mealprep */
+
+.content-container {
+    max-width: 800px;  /* Maximum width for the content */
+    margin: auto;    /* Center the container */
+    padding: 20px;     /* Padding around the content */
+}
+
+.mealprep-image {
+    width: 100%;       /* Make the image responsive */
+    height: auto;      /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+h1, h2, h3, p {
+    
+    text-align: left;  /* Align text to the left for readability */
+    line-height: 1.5rem;
+}
+    
+h1 {
+    margin: 20px; 
+    margin-top: 20px; /* Add top margin for spacing */
+    line-height: 1.5rem;
+}
+
+ul {
+    
+    margin-left: 20px; /* Indent the list items */
+    line-height: 1.5rem;
+}
 
 
 
 
+/* Footer */ 
 
 footer {
     background-color: white;
-    padding: 0; /* Remove padding from the footer */
-    margin: 0; /* Remove margin from the footer */
+    padding: 0; 
+    margin: 0; 
 }
 
 /* Styling for the footer container */
